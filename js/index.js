@@ -6,7 +6,7 @@ const retRoPhone = (categoryName) =>{
 const displayReto = (phones) =>{
     // console.log(phones);
     const letDiscus = document.getElementById('lets-section');
-
+   
     phones.forEach(phone => {
         // console.log(phone);
         const addDiscus = document.createElement('div');
@@ -118,7 +118,7 @@ const clickOpen = () =>{
     <div class="card-body">
         <div class="card-actions">
           <div class="flex gap-4">
-            <h1 class="text-3xl font-bold"></h1>
+            <h1 class="font-bold">Discoverer of Global Treasures</h1>
             <span class="flex items-center gap-2"><img src="images/Group 16.png" alt="">1668</span>
           </div>
         </div>
